@@ -20,7 +20,7 @@
 	const actionsToDo = data.actions.length;
 
 	// svelte-ignore state_referenced_locally
-	let actions = $state(data.actions);
+	let actions = $state<Action[]>(data.actions);
 	let away = $state(false);
 	let currentAction = $state<Action | null>(null);
 	let startTime = 0;
@@ -98,7 +98,7 @@
 			</div>
 
 			<div class="mt-3 flex w-full flex-col items-center justify-center gap-3">
-				{#each actions as action}
+				{#each actions as action (action.id)}
 					<button
 						disabled={action.expired}
 						onclick={() => handleClick(action)}
