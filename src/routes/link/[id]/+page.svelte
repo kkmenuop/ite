@@ -120,7 +120,7 @@
 				{/each}
 			</div>
 			<button
-				disabled={actionsDone === actionsToDo}
+				disabled={actionsDone !== actionsToDo}
 				onclick={() => {
 					if (actionsDone === actionsToDo) window.open(data.url);
 				}}
@@ -128,7 +128,7 @@
 					'rounded-3 h-12 w-full rounded-lg font-bold transition-all duration-300',
 					{
 						'cursor-not-allowed bg-gray-700 font-medium text-gray-400': actionsDone !== actionsToDo,
-						'cursor-pointer bg-green-500': actionsDone === actionsToDo
+						'cursor-pointer bg-green-600': actionsDone === actionsToDo
 					}
 				]}
 			>
