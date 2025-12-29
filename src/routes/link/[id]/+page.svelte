@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Link, Action } from '$lib/links';
-	import actionTypes from '$lib/types';
+	import { actionTypes } from '$lib/types';
 	import { onMount } from 'svelte';
 	let { data }: { data: Link } = $props();
 
@@ -63,7 +63,7 @@
 			document.addEventListener('visibilitychange', check);
 		});
 
-		if (performance.now() - startTime >= 5000) {
+		if (performance.now() - startTime >= actionTypes[action.type].waitTime * 1000) {
 			action.expired = true;
 			actionsDone++;
 		}
@@ -122,7 +122,7 @@
 			<button
 				disabled={actionsDone !== actionsToDo}
 				onclick={() => {
-					if (actionsDone === actionsToDo) window.open(data.url);
+					if (actionsDone === actionsToDo) window.open(data.redirectUrl);
 				}}
 				class={[
 					'rounded-3 h-12 w-full rounded-lg font-bold transition-all duration-300',

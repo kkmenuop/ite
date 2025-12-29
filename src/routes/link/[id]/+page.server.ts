@@ -1,4 +1,4 @@
-import links from '$lib/links';
+import { links } from '$lib/links';
 import { error } from '@sveltejs/kit';
 
 export function load({ params }) {
