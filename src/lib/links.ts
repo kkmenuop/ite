@@ -18,15 +18,15 @@ type Links = Record<string, Link>;
 // data
 export const links: Links = {
   aaaa: {
-    imageUrl: 'jujutsuzero.png',
-    title: 'Jujutsu Zero Script OMG IF U READ THIS U ARE GAY',
-    createdAt: '2025-12-28T04:52:49.706Z',
-    redirectUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    imageUrl: 'thumb10.png',
+    title: 'GPO Script',
+    createdAt: '2025-12-30T04:52:49.706Z',
+    redirectUrl: 'https://link-target.net/330762/0aKwnOfMOtir',
     actions: [
       {
         id: 1,
         type: 'like_comment',
-        url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        url: 'https://youtu.be/O2La7e1RCHU',
       },
       {
         id: 2,
