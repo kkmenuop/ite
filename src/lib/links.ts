@@ -54,4 +54,22 @@ export const links: Links = {
       },
     ],
   },
+   cccc: {
+    imageUrl: 'thumb11.png',
+    title: 'GPO SCRIPT',
+    createdAt: '2026-01-01T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/sezbDlpoiT9O',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/lcO0mjveAoo',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
