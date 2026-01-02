@@ -72,4 +72,22 @@ export const links: Links = {
       },
     ],
   },
+  dddd: {
+    imageUrl: 'thumb12.png',
+    title: 'Dead Rails SCRIPT',
+    createdAt: '2026-01-02T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/Hv2fdeYfDW2s',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Fg8tclqvT94',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
