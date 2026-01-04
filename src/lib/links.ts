@@ -92,7 +92,7 @@ export const links: Links = {
   },
     eeee: {
     imageUrl: 'thumb13.png',
-    title: 'Dead Rails SCRIPT',
+    title: 'Devil hunter SCRIPT',
     createdAt: '2026-01-02T23:52:49.706Z',
     redirectUrl: 'https://link-target.net/330762/oDfaasVV3ax2',
     actions: [
@@ -100,6 +100,24 @@ export const links: Links = {
         id: 1,
         type: 'like_comment',
         url: 'https://youtu.be/QSsGZPfFaOk',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+     ffff: {
+    imageUrl: 'thumb14.png',
+    title: 'Jailbreak SCRIPT',
+    createdAt: '2026-01-03T23:52:49.706Z',
+    redirectUrl: 'https://direct-link.net/330762/tS8qKw94jA6i',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/EAWHeexQRk4',
       },
       {
         id: 2,
