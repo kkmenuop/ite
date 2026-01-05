@@ -3,6 +3,7 @@ export interface Action {
   id: number;
   type: 'like_comment' | 'subscribe';
   url: string;
+  expired?: boolean;
 }
 
 export interface Link {
