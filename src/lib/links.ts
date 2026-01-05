@@ -3,7 +3,7 @@ export interface Action {
   id: number;
   type: 'like_comment' | 'subscribe';
   url: string;
-  expired?: boolean;
+    expired?: boolean;
 }
 
 export interface Link {
@@ -119,6 +119,24 @@ export const links: Links = {
         id: 1,
         type: 'like_comment',
         url: 'https://youtu.be/EAWHeexQRk4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+  gggg: {
+    imageUrl: 'thumb.png',
+    title: 'Grand Piece Online SCRIPT',
+    createdAt: '2026-01-04T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/0d6yf2rywvq4k1b/Gpo2+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/o96LgpE6DMY',
       },
       {
         id: 2,
