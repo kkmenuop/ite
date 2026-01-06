@@ -145,4 +145,22 @@ export const links: Links = {
       },
     ],
   },
+  hhhh: {
+    imageUrl: 'thumb1.png',
+    title: 'Anime Fighting Simulator SCRIPT',
+    createdAt: '2026-01-05T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/7tmu1ispzgnm7pi/Anime+Fighting+Simulator+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/JN2FeVtqJV4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
