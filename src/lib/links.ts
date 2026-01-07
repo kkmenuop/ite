@@ -163,4 +163,22 @@ export const links: Links = {
       },
     ],
   },
+   iiii: {
+    imageUrl: 'thumb2.png',
+    title: 'Devil Hunter SCRIPT',
+    createdAt: '2026-01-06T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/ekyayy3ysdvcgu0/Devil+hunter+2+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/PbfORlyqe08',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
