@@ -181,4 +181,22 @@ export const links: Links = {
       },
     ],
   },
+     jjjj: {
+    imageUrl: 'thumb3.png',
+    title: 'REDZHUB SCRIPT',
+    createdAt: '2026-01-07T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/x5qp4ajjnvfa1pb/redz+blox+fruits+janeiro+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/yCYg-4bxpo4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
