@@ -217,4 +217,22 @@ export const links: Links = {
       },
     ],
   },
+  llll: {
+    imageUrl: 'thumb5.png',
+    title: 'MM2 SCRIPT',
+    createdAt: '2026-01-09T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/nnynkjmew76mz90/mm2_2026_by_kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Zavk1q4i83o',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
