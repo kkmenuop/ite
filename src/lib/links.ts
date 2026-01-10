@@ -226,7 +226,7 @@ export const links: Links = {
       {
         id: 1,
         type: 'like_comment',
-        url: 'https://youtu.be/Zavk1q4i83o',
+        url: 'https://youtu.be/X_uCBp0oN18',
       },
       {
         id: 2,
