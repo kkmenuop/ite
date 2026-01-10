@@ -199,4 +199,22 @@ export const links: Links = {
       },
     ],
   },
+  kkkk: {
+    imageUrl: 'thumb4.png',
+    title: 'Brookhaven SCRIPT',
+    createdAt: '2026-01-08T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/9nloz8hnwqcseih/brookhaven+rp+sander+2026+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Zavk1q4i83o',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
