@@ -253,4 +253,22 @@ export const links: Links = {
       },
     ],
   },
+   nnnn: {
+    imageUrl: 'thumb7.png',
+    title: 'Escape Tsunami For Brainrots SCRIPT',
+    createdAt: '2026-01-11T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/e6sih4ogl4a1pyu/Escape+Tsunami+For+Brainrots+Script+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/YTBm53xkJW8',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
