@@ -307,4 +307,22 @@ export const links: Links = {
       },
     ],
   },
+     rrrr: {
+    imageUrl: 'thumb100.png',
+    title: 'Blox Fruits SCRIPT',
+    createdAt: '2026-01-14T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/9g7d4z2og4hh2ep/bloxfruitss+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/zFOYkGCWtYI',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
