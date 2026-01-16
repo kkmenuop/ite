@@ -345,7 +345,7 @@ export const links: Links = {
   },
     qqqq: {
     imageUrl: 'thumb102.png',
-    title: 'Escape Tsunami SCRIPT',
+    title: 'Natural Disaster Survivel SCRIPT',
     createdAt: '2026-01-16T23:52:49.706Z',
     redirectUrl: 'https://www.mediafire.com/file/w4193actzojxbtc/Natural+Disaster+Survivel+By+KAKAZiT.txt/file',
     actions: [
