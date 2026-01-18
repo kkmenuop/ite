@@ -361,4 +361,22 @@ export const links: Links = {
       },
     ],
   },
+  tttt: {
+    imageUrl: 'thumbb.png',
+    title: 'Escape Tsunami SCRIPT',
+    createdAt: '2026-01-17T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/ckb619u6hourtwb/BlessedHub+ByKAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/6Wlct3st0-c',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
