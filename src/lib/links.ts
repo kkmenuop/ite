@@ -379,4 +379,22 @@ export const links: Links = {
       },
     ],
   },
+  uuuu: {
+    imageUrl: 'thumbb1.png',
+    title: 'MM2 SCRIPT',
+    createdAt: '2026-01-18T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/c6rff1sgxulo8qc/mm2+echelon.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/yLKpwZ4L2ak',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
