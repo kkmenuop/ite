@@ -397,4 +397,40 @@ export const links: Links = {
       },
     ],
   },
+  vvvv: {
+    imageUrl: 'thumbb2.png',
+    title: 'Steal a Brainrot SCRIPT',
+    createdAt: '2026-01-19T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/eke5806iysgc8pc/steal+a+brainrot+2026.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/9wIY5JhaSdo',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+  wwww: {
+    imageUrl: 'thumbb3.png',
+    title: 'Car Dealership Tycoon SCRIPT',
+    createdAt: '2026-01-19T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/j7g4m03l0p9h6u5/Car+Dealership+Tycoon+2026+By+KAKAiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/UMlVzItnDHc',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
