@@ -433,4 +433,40 @@ export const links: Links = {
       },
     ],
   },
+  aa: {
+    imageUrl: 'thumbb5.png',
+    title: 'Jujutsu shenanigans SCRIPT',
+    createdAt: '2026-01-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/un6dpwqoruf8vcq/jujutsu+shenanigans+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/mlsmlH7nIzc',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+  bb: {
+    imageUrl: 'thumbb4.png',
+    title: 'Escape Tsunami SCRIPT',
+    createdAt: '2026-01-21T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/eu7lck1zjm0aker/Escape+Tesunami+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/R5gefY0V5xM',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
