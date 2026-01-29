@@ -523,4 +523,22 @@ export const links: Links = {
       },
     ],
   },
+   ff: {
+    imageUrl: 'thumbb9.png',
+    title: 'Escape Tsunami SCRIPT',
+    createdAt: '2026-01-28T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/siz04hztd49tsir/Ocean+X+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/MXBEIByFGIs',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
