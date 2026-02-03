@@ -595,4 +595,22 @@ export const links: Links = {
       },
     ],
   },
+  jj: {
+    imageUrl: 'thumbb13.png',
+    title: 'Brookhaven SCRIPT By KAKAZiT',
+    createdAt: '2026-01-31T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/ryskjs579giksf9/brookhaven+rpp+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/bHG4HVgw55Y',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
