@@ -667,4 +667,22 @@ export const links: Links = {
       },
     ],
   },
+   nn: {
+    imageUrl: 'thumbb17.png',
+    title: 'mm2 SCRIPT By KAKAZiT',
+    createdAt: '2026-02-06T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/wtogoahwu42tflg/murder2+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/OwaVhuCFelw',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
