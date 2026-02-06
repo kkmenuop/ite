@@ -649,4 +649,22 @@ export const links: Links = {
       },
     ],
   },
+   mm: {
+    imageUrl: 'thumbb16.png',
+    title: 'Solo Hunters SCRIPT By KAKAZiT',
+    createdAt: '2026-02-04T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/v0qvwn3o6dtenek/solo_hunterss_by_kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/F_X5jpR9bt0',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
