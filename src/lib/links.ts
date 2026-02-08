@@ -685,4 +685,22 @@ export const links: Links = {
       },
     ],
   },
+  oo: {
+    imageUrl: 'thumbb18.png',
+    title: 'escape tsunami SCRIPT By KAKAZiT',
+    createdAt: '2026-02-08T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/1lxrulpvg4fulw5/esacape+tsunami+for+brainrots+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/eQc_Hqv3eWw',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
