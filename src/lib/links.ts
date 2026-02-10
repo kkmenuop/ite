@@ -703,4 +703,22 @@ export const links: Links = {
       },
     ],
   },
+  pp: {
+    imageUrl: 'thumbb19.png',
+    title: 'jjs SCRIPT By KAKAZiT',
+    createdAt: '2026-02-09T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/6jbzr1jayjuuxc7/jjs+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/n2aR6hdaROs',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
