@@ -739,4 +739,22 @@ export const links: Links = {
       },
     ],
   },
+  rr: {
+    imageUrl: 'thumbb21.png',
+    title: 'King Legacy SCRIPT By KAKAZiT',
+    createdAt: '2026-02-11T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/sl34ubxqfohbnnb/king+legacy+byy+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/wIkZSxtDrSI',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
