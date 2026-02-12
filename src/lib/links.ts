@@ -757,4 +757,22 @@ export const links: Links = {
       },
     ],
   },
+ ss: {
+    imageUrl: 'thumbb22.png',
+    title: 'Abyss SCRIPT By KAKAZiT',
+    createdAt: '2026-02-12T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/xi6ppfwmpj2p2hn/Abysss+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/kPzB8vXfRM8',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
