@@ -793,4 +793,22 @@ export const links: Links = {
       },
     ],
   },
+    vv: {
+    imageUrl: 'thumbb24.png',
+    title: 'Demonfall SCRIPT By KAKAZiT',
+    createdAt: '2026-02-14T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/jrm7z2itv21ymtv/demonfall+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/3QOA7J7WmpE',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
