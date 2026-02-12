@@ -775,4 +775,22 @@ export const links: Links = {
       },
     ],
   },
+   tt: {
+    imageUrl: 'thumbb23.png',
+    title: 'Anime Vanguards SCRIPT By KAKAZiT',
+    createdAt: '2026-02-12T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/teo49h5bml985sd/anime+vanguards+by+kakait.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/04U06mQ3DuA',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
