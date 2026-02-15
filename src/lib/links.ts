@@ -811,4 +811,22 @@ export const links: Links = {
       },
     ],
   },
+  uu: {
+    imageUrl: 'thumbb25.png',
+    title: 'Blox Fruits SCRIPT',
+    createdAt: '2026-02-15T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/gdybziujks8t0k5/blox+fruits+evento+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Hxu3moJGT58',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
