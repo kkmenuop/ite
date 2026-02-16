@@ -829,4 +829,22 @@ export const links: Links = {
       },
     ],
   },
+   ww: {
+    imageUrl: 'thumbb26.png',
+    title: 'Escape Tsunami SCRIPT',
+    createdAt: '2026-02-15T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/qzaskb6zvck7ugx/escape+rexbr+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/nLcLgVH2UXE',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
