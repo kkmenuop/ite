@@ -802,7 +802,7 @@ export const links: Links = {
       {
         id: 1,
         type: 'like_comment',
-        url: 'https://youtu.be/3QOA7J7WmpE',
+        url: 'https://www.youtube.com/watch?v=QSj8pWGaIyg',
       },
       {
         id: 2,
