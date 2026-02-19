@@ -865,4 +865,22 @@ export const links: Links = {
       },
     ],
   },
+  zz: {
+    imageUrl: 'thumbb28.png',
+    title: 'Kaizen SCRIPT',
+    createdAt: '2026-02-19T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/eowmmfghvvpbbsw/kaizen+2+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/MCraL4U1HJg',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
