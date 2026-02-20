@@ -883,4 +883,22 @@ export const links: Links = {
       },
     ],
   },
+  a: {
+    imageUrl: 'thumbb29.png',
+    title: 'Anime Final Quest SCRIPT',
+    createdAt: '2026-02-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/gnog2013ghw86rl/Anime+Final+Quest+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/ATZuMk4a348',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
