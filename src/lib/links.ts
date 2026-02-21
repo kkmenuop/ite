@@ -901,4 +901,22 @@ export const links: Links = {
       },
     ],
   },
+  b: {
+    imageUrl: 'thumbb30.png',
+    title: 'Murder Mystery 2 SCRIPT',
+    createdAt: '2026-02-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/1yqr85msur3acsg/mm2+fevereiro+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/UdPvHV_uL2A',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
