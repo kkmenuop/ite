@@ -919,4 +919,22 @@ export const links: Links = {
       },
     ],
   },
+   c: {
+    imageUrl: 'thumbb31.png',
+    title: 'Brookhaven RP SCRIPT',
+    createdAt: '2026-02-22T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/dyzc15zcm79ad8k/brookhaven+sander+fevereiro+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/UdPvHV_uL2A',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
