@@ -937,4 +937,22 @@ export const links: Links = {
       },
     ],
   },
+  d: {
+    imageUrl: 'thumbb32.png',
+    title: 'Garden Horizons SCRIPT',
+    createdAt: '2026-02-23T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/5o7n2t1v1oyq4tc/Garden+Horizon+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/CI4u2hgYkko',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
