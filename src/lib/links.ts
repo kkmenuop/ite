@@ -991,4 +991,22 @@ export const links: Links = {
       },
     ],
   },
+  g: {
+    imageUrl: 'thumbb35.png',
+    title: 'JJS SCRIPT',
+    createdAt: '2026-02-26T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/gs2dbvpelg3yvlq/jjs+script+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/O6WtQkwVc5w',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
