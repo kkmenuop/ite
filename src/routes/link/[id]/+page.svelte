@@ -5,6 +5,7 @@
 	let { data }: { data: Link } = $props();
 
 	const SAVE_TIME = 10 * 60 * 1000; // 10 minutes in milliseconds
+	// svelte-ignore state_referenced_locally
 	const STORAGE_KEY = `link-progress-${data.id}`;
 
 	const getIso = () => {
@@ -19,7 +20,9 @@
 	};
 
 	let actionsDone = $state(0);
+	// svelte-ignore state_referenced_locally
 	const actionsToDo = data.actions.length;
+	// svelte-ignore state_referenced_locally
 	let actions = $state<Action[]>(data.actions);
 	let away = $state(false);
 	let currentAction = $state<Action | null>(null);
