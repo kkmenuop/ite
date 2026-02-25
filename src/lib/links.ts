@@ -974,4 +974,22 @@ export const links: Links = {
       },
     ],
   },
+   f: {
+    imageUrl: 'thumbb34.png',
+    title: 'Anime Ghost SCRIPT',
+    createdAt: '2026-02-25T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/huril692cupmao8/anime+ghost+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/ndn7q9OYx04',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
