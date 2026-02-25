@@ -4,6 +4,10 @@
 	import { onMount } from 'svelte';
 	let { data }: { data: Link } = $props();
 
+	const SAVE_TIME = 10 * 60 * 1000; // 10 minutes in milliseconds
+	// svelte-ignore state_referenced_locally
+	const STORAGE_KEY = `link-progress-${data.id}`;
+
 	const getIso = () => {
 		const iso = data.createdAt;
 		return new Intl.DateTimeFormat(undefined, {
@@ -18,14 +22,51 @@
 	let actionsDone = $state(0);
 	// svelte-ignore state_referenced_locally
 	const actionsToDo = data.actions.length;
-
 	// svelte-ignore state_referenced_locally
 	let actions = $state<Action[]>(data.actions);
 	let away = $state(false);
 	let currentAction = $state<Action | null>(null);
 	let startTime = 0;
 
+	const loadProgress = () => {
+		const saved = localStorage.getItem(STORAGE_KEY);
+		if (!saved) return;
+
+		const { expiredIds, timestamp } = JSON.parse(saved);
+		const timePassed = Date.now() - timestamp;
+
+		if (timePassed > SAVE_TIME) {
+			// Time expired, grant all pending actions
+			actions.forEach((action) => {
+				action.expired = true;
+			});
+			actionsDone = actionsToDo;
+			localStorage.removeItem(STORAGE_KEY);
+		} else {
+			// Restore progress
+			actions.forEach((action) => {
+				if (expiredIds.includes(action.id)) {
+					action.expired = true;
+					actionsDone++;
+				}
+			});
+		}
+	};
+
+	const saveProgress = () => {
+		const expiredIds = actions.filter((a) => a.expired).map((a) => a.id);
+		localStorage.setItem(
+			STORAGE_KEY,
+			JSON.stringify({
+				expiredIds,
+				timestamp: Date.now()
+			})
+		);
+	};
+
 	onMount(() => {
+		loadProgress();
+
 		const toggle = () => {
 			away = document.hidden;
 		};
@@ -66,6 +107,7 @@
 		if (performance.now() - startTime >= actionTypes[action.type].waitTime * 1000) {
 			action.expired = true;
 			actionsDone++;
+			saveProgress();
 		}
 		startTime = 0;
 		currentAction = null;

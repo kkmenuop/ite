@@ -7,6 +7,7 @@ export interface Action {
 }
 
 export interface Link {
+  id?: string;
   imageUrl: string;
   title: string;
   createdAt: string;
