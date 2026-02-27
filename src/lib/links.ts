@@ -1010,4 +1010,22 @@ export const links: Links = {
       },
     ],
   },
+  h: {
+    imageUrl: 'thumbb36.png',
+    title: 'Grow Beanstalk  SCRIPT',
+    createdAt: '2026-02-27T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/u4dluguelmj4513/Grow+Beanstalk+For+Brainrots+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/DkHLm9J4p-o',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
