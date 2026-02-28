@@ -1028,4 +1028,22 @@ export const links: Links = {
       },
     ],
   },
+  i: {
+    imageUrl: 'thumbb37.png',
+    title: 'Escape Tsunami SCRIPT',
+    createdAt: '2026-02-28T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/sd9wsxk1vin86sz/Escape+Tsunami+Unreal+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/yiGbELiqPu4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
