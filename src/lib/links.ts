@@ -1118,4 +1118,22 @@ export const links: Links = {
       },
     ],
   },
+  n: {
+    imageUrl: 'thumbb42.png',
+    title: 'murder mystery 2 SCRIPT',
+    createdAt: '2026-03-04T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/mgj4fw28bq4qpcv/mm2+março+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/a6AFJAX1uHM',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
