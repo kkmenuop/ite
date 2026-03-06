@@ -1136,4 +1136,22 @@ export const links: Links = {
       },
     ],
   },
+   o: {
+    imageUrl: 'thumbb43.png',
+    title: 'Titan Finishing SCRIPT',
+    createdAt: '2026-03-06T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/axsub9r9q8y899v/Titan+Fishing+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/LyrPdtjiFBE',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
