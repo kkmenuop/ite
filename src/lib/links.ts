@@ -1172,4 +1172,22 @@ export const links: Links = {
       },
     ],
   },
+  q: {
+    imageUrl: 'thumbb45.png',
+    title: 'Bizarre Lineage SCRIPT',
+    createdAt: '2026-03-08T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/wktp2doig1kix43/bbizarre+lineage+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/0jS8a-td2s4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
