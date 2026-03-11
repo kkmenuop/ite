@@ -1226,4 +1226,22 @@ export const links: Links = {
       },
     ],
   },
+  t: {
+    imageUrl: 'thumbb48.png',
+    title: 'Sailor Piece SCRIPT',
+    createdAt: '2026-03-10T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/9gejsq8cqgteafl/Sailor+Piece+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/rrOmuk4uMpw',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
