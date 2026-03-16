@@ -1280,4 +1280,22 @@ export const links: Links = {
       },
     ],
   },
+  w: {
+    imageUrl: 'thumbb51.png',
+    title: 'King Legacy UPD10 SCRIPT',
+    createdAt: '2026-03-13T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/UIPn8UWj0v8p',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Kk2K6zojLTU',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
