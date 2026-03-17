@@ -1298,4 +1298,22 @@ export const links: Links = {
       },
     ],
   },
+  y: {
+    imageUrl: 'thumbb52.png',
+    title: 'JJS SCRIPT',
+    createdAt: '2026-03-13T23:52:49.706Z',
+    redirectUrl: 'https://link-center.net/330762/8leSSRsBYJb2',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/qllbkeeWhYA',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
