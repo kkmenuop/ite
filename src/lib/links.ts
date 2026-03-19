@@ -1334,4 +1334,22 @@ export const links: Links = {
       },
     ],
   },
+   zp: {
+    imageUrl: 'thumbb54.png',
+    title: 'Bizarre Lineage SCRIPT',
+    createdAt: '2026-03-19T23:52:49.706Z',
+    redirectUrl: 'https://direct-link.net/330762/6c4cKkwQrcF9',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/OTER8qdulVo',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
