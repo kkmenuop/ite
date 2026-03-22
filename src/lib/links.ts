@@ -1352,4 +1352,22 @@ export const links: Links = {
       },
     ],
   },
+   aaa: {
+    imageUrl: 'thumbb55.png',
+    title: 'Survive the Apocalypse SCRIPT',
+    createdAt: '2026-03-23T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/84NhnMYWEHTk',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/HN89cUsD2U4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
