@@ -1390,7 +1390,7 @@ export const links: Links = {
   },
   ccc: {
     imageUrl: 'thumbb57.png',
-    title: 'JJS SCRIPT',
+    title: 'king legacy SCRIPT',
     createdAt: '2026-03-23T23:52:49.706Z',
     redirectUrl: 'https://link-target.net/330762/B01IkGjhUlBm',
     actions: [
