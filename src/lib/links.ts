@@ -1406,4 +1406,22 @@ export const links: Links = {
       },
     ],
   },
+  ddd: {
+    imageUrl: 'thumbb58.png',
+    title: 'Sailor Piece SCRIPT',
+    createdAt: '2026-03-25T23:52:49.706Z',
+    redirectUrl: 'https://link-target.net/330762/QNlTtVH66WM0',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/qVWekzlf44Y',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
