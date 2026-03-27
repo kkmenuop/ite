@@ -1442,4 +1442,22 @@ export const links: Links = {
       },
     ],
   },
+  fff: {
+    imageUrl: 'thumbb60.png',
+    title: 'mm2 SCRIPT',
+    createdAt: '2026-03-28T23:52:49.706Z',
+    redirectUrl: 'https://link-center.net/330762/I1JrctGjLThj',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/MfzAReOn-d0',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
