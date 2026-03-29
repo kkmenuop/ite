@@ -1460,4 +1460,22 @@ export const links: Links = {
       },
     ],
   },
+  ggg: {
+    imageUrl: 'thumbb61.png',
+    title: 'blox fruits SCRIPT',
+    createdAt: '2026-03-29T23:52:49.706Z',
+    redirectUrl: 'https://link-center.net/330762/vavLOLJy5pkV',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/KMCBr_Vi27E',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
