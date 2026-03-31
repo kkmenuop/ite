@@ -1496,4 +1496,22 @@ export const links: Links = {
       },
     ],
   },
+  iii: {
+    imageUrl: 'thumbb63.png',
+    title: 'Bite By Night SCRIPT',
+    createdAt: '2026-03-31T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/QSJ5CyDBiLFV',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/P-H4a2dVUU8',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
