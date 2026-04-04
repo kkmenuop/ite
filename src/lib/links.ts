@@ -1568,4 +1568,22 @@ export const links: Links = {
       },
     ],
   },
+  mmm: {
+    imageUrl: 'thumbb67.png',
+    title: 'Brookhaven RP SCRIPT',
+    createdAt: '2026-04-04T23:52:49.706Z',
+    redirectUrl: 'https://link-target.net/330762/JXYcOGnU2nzM',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/lctrTwBaKds',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
