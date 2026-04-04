@@ -1586,4 +1586,22 @@ export const links: Links = {
       },
     ],
   },
+  nnn: {
+    imageUrl: 'thumbb68.png',
+    title: 'Be a Lucky Block SCRIPT',
+    createdAt: '2026-04-04T23:52:49.706Z',
+    redirectUrl: 'https://link-center.net/330762/PhhHer8OcopV',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Vm0wQKyDHbE',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
