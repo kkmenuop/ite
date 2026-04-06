@@ -1604,4 +1604,22 @@ export const links: Links = {
       },
     ],
   },
+  ooo: {
+    imageUrl: 'thumbb69.png',
+    title: 'King Legacy SCRIPT',
+    createdAt: '2026-04-06T23:52:49.706Z',
+    redirectUrl: 'https://link-target.net/330762/9xI8AkHXAmHW',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/BottKIeC15c',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
