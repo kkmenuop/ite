@@ -1640,4 +1640,22 @@ export const links: Links = {
       },
     ],
   },
+   qqq: {
+    imageUrl: 'thumbb71.png',
+    title: 'Brookhaven SCRIPT',
+    createdAt: '2026-04-08T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/GWQMo4B7LD45',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/kwUn9mJXWY0',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
