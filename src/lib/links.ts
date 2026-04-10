@@ -1658,4 +1658,22 @@ export const links: Links = {
       },
     ],
   },
+   rrr: {
+    imageUrl: 'thumbb72.png',
+    title: 'King legacy SCRIPT',
+    createdAt: '2026-04-08T23:52:49.706Z',
+    redirectUrl: 'https://direct-link.net/330762/Rct7csGSLV67',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/R_JQB9Z8huI',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
