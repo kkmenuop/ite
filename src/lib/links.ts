@@ -1694,4 +1694,22 @@ export const links: Links = {
       },
     ],
   },
+  ttt: {
+    imageUrl: 'thumbb74.png',
+    title: 'Paradox SCRIPT',
+    createdAt: '2026-04-10T23:52:49.706Z',
+    redirectUrl: 'https://direct-link.net/330762/9wOTat2I5Jsj',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/kcUtk8470c4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
