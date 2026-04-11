@@ -1712,4 +1712,22 @@ export const links: Links = {
       },
     ],
   },
+  uuu: {
+    imageUrl: 'thumbb75.png',
+    title: 'Blox Fruits SCRIPT',
+    createdAt: '2026-04-11T23:52:49.706Z',
+    redirectUrl: 'https://link-center.net/330762/cCDHND2LfuPp',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/8vB76rf-UY8',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
