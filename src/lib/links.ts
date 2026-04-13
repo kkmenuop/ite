@@ -1748,4 +1748,22 @@ export const links: Links = {
       },
     ],
   },
+  www: {
+    imageUrl: 'thumbb77.png',
+    title: 'Paradox SCRIPT',
+    createdAt: '2026-04-13T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/bduhsIjhpTyq',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/jgEg869LhSw',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
