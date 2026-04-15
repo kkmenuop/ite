@@ -1784,4 +1784,22 @@ export const links: Links = {
       },
     ],
   },
+  zzz: {
+    imageUrl: 'thumbb79.png',
+    title: 'Paradoxo SCRIPT',
+    createdAt: '2026-04-15T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/zAXiKPzM14zx',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/yfrsD1hoRM4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
