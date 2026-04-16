@@ -1802,4 +1802,22 @@ export const links: Links = {
       },
     ],
   },
+  zzzzz: {
+    imageUrl: 'thumbb80.png',
+    title: 'Blox Fruits SCRIPT',
+    createdAt: '2026-04-16T23:52:49.706Z',
+    redirectUrl: 'https://link-target.net/330762/HawTt4mhyE8V',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Wm7xIKWPQPU',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
