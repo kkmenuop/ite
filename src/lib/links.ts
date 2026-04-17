@@ -1824,7 +1824,7 @@ export const links: Links = {
     imageUrl: 'thumbb81.png',
     title: 'Sailor Piece SCRIPT',
     createdAt: '2026-04-17T23:52:49.706Z',
-    redirectUrl: 'https://link-target.net/330762/HawTt4mhyE8V',
+    redirectUrl: 'https://link-center.net/330762/WqrizvfdbQsx',
     actions: [
       {
         id: 1,
