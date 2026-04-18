@@ -1856,4 +1856,22 @@ export const links: Links = {
       },
     ],
   },
+  ad: {
+    imageUrl: 'thumbb83.png',
+    title: 'Kick A Lucky BLock SCRIPT',
+    createdAt: '2026-04-18T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/8GjYzg0Ofwco',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/OjEPjUpomOc',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
