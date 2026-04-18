@@ -1874,4 +1874,22 @@ export const links: Links = {
       },
     ],
   },
+  ae: {
+    imageUrl: 'thumbb84.png',
+    title: 'Seal a BRAINROT SCRIPT',
+    createdAt: '2026-04-18T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/WpGxxHR2gnpm',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/fV2DBeZPw14',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
