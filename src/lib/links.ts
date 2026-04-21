@@ -1928,4 +1928,22 @@ export const links: Links = {
       },
     ],
   },
+   ah: {
+    imageUrl: 'thumbb87.png',
+    title: 'JJS SCRIPT',
+    createdAt: '2026-04-21T23:52:49.706Z',
+    redirectUrl: 'https://link-center.net/330762/LOGQwJlRqPlL',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/x6rC2BTo0ys',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
