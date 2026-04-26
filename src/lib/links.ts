@@ -2000,4 +2000,22 @@ export const links: Links = {
       },
     ],
   },
+   am: {
+    imageUrl: 'thumbb91.png',
+    title: 'Attack on Titan Revolution SCRIPT',
+    createdAt: '2026-04-26T23:52:49.706Z',
+    redirectUrl: 'https://direct-link.net/330762/zcSafKSLRFi1',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/bJzf0eulyho',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
