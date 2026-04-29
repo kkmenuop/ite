@@ -2019,8 +2019,26 @@ export const links: Links = {
     ],
   },
    an: {
+    imageUrl: 'thumbb92.png',
+    title: 'Executores Mobile UPD SCRIPT',
+    createdAt: '2026-04-27T23:52:49.706Z',
+    redirectUrl: 'https://link-center.net/330762/cTqm3ASmuEpF',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/nOjmHqIxx4c',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+  ao: {
     imageUrl: 'thumbb93.png',
-    title: 'jjs SCRIPT',
+    title: 'JJS SCRIPT',
     createdAt: '2026-04-29T23:52:49.706Z',
     redirectUrl: 'https://direct-link.net/330762/crs9PBowPw8M',
     actions: [
