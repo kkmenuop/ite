@@ -2072,4 +2072,40 @@ export const links: Links = {
       },
     ],
   },
+   aq: {
+    imageUrl: 'thumbb95.png',
+    title: 'Kick a Lucky Block SCRIPT',
+    createdAt: '2026-04-30T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/caBvTXm5JbGK',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/7N2qvAJbqls',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+   ar: {
+    imageUrl: 'thumbb96.png',
+    title: 'Kick a Lucky Block SCRIPT',
+    createdAt: '2026-05-03T23:52:49.706Z',
+    redirectUrl: 'https://link-center.net/330762/yXNJ95hqxukw',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/h98OOwUoh0g',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
