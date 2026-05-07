@@ -2144,4 +2144,22 @@ export const links: Links = {
       },
     ],
   },
+  au: {
+    imageUrl: 'thumbb99.png',
+    title: 'Kaiju Alpha SCRIPT',
+    createdAt: '2026-05-09T23:52:49.706Z',
+    redirectUrl: 'https://link-hub.net/330762/bRYzTm9tMEMF',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/-fLcJJgl7e0',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
