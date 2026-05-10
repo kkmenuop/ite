@@ -2180,4 +2180,22 @@ export const links: Links = {
       },
     ],
   },
+  aw: {
+    imageUrl: 'thumbb101.png',
+    title: 'Kaiju Alpha SCRIPT',
+    createdAt: '2026-05-10T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/h4f7j14wsn7dbnu/kkaiju+alpha+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/EnB8elJSjD4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
