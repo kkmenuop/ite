@@ -2162,4 +2162,22 @@ export const links: Links = {
       },
     ],
   },
+  av: {
+    imageUrl: 'thumbb100.png',
+    title: 'Kick a Lucky Block SCRIPT',
+    createdAt: '2026-05-09T23:52:49.706Z',
+    redirectUrl: 'https://direct-link.net/330762/ciLNXIhsjoOy',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/i7NTyZOfkKw',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
