@@ -2198,4 +2198,22 @@ export const links: Links = {
       },
     ],
   },
+  az: {
+    imageUrl: 'thumbb102.png',
+    title: 'Blox Fruits SCRIPT',
+    createdAt: '2026-05-11T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/h4f7j14wsn7dbnu/kkaiju+alpha+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/vqXY38fj_aQ',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
