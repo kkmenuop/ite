@@ -2234,4 +2234,22 @@ export const links: Links = {
       },
     ],
   },
+   bc: {
+    imageUrl: 'thumbb105.png',
+    title: 'Kick a Lucky Block SCRIPT',
+    createdAt: '2026-05-17T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/fvu2x7w338cbpgx/kick+a+lucky+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/yGQURYZMRW8',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
