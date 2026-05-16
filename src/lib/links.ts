@@ -2216,4 +2216,22 @@ export const links: Links = {
       },
     ],
   },
+  ay: {
+    imageUrl: 'thumbb103.png',
+    title: 'Executores Mobile SCRIPT',
+    createdAt: '2026-05-1T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/8eojcuids1rhyh9/Executores+mobile+upd+2026.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/36XVhYvCE9c',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
