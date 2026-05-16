@@ -2216,16 +2216,16 @@ export const links: Links = {
       },
     ],
   },
-  ay: {
-    imageUrl: 'thumbb103.png',
-    title: 'Executores Mobile SCRIPT',
-    createdAt: '2026-05-1T23:52:49.706Z',
-    redirectUrl: 'https://www.mediafire.com/file/8eojcuids1rhyh9/Executores+mobile+upd+2026.txt/file',
+  ba: {
+    imageUrl: 'thumbb104.png',
+    title: 'Wizard Alchemy SCRIPT',
+    createdAt: '2026-05-16T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/shyjd87dxpuc24l/Wizard+Alchemy+by+kakazit.txt/file',
     actions: [
       {
         id: 1,
         type: 'like_comment',
-        url: 'https://youtu.be/36XVhYvCE9c',
+        url: 'https://youtu.be/iuBmkziEibk',
       },
       {
         id: 2,
