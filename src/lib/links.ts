@@ -2254,8 +2254,8 @@ export const links: Links = {
   },
   bd: {
     imageUrl: 'thumbb106.png',
-    title: 'Kick a Lucky Block SCRIPT',
-    createdAt: '2026-05-17T23:52:49.706Z',
+    title: 'Anime apocalypse SCRIPT',
+    createdAt: '2026-05-18T23:52:49.706Z',
     redirectUrl: 'https://www.mediafire.com/file/8ee1vrohb7mx7b7/anime+apocalypse+by+kakazit.txt/file',
     actions: [
       {
