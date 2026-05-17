@@ -2252,4 +2252,22 @@ export const links: Links = {
       },
     ],
   },
+  bd: {
+    imageUrl: 'thumbb106.png',
+    title: 'Kick a Lucky Block SCRIPT',
+    createdAt: '2026-05-17T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/8ee1vrohb7mx7b7/anime+apocalypse+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/sO56BPCKTxI',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
