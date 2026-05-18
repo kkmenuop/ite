@@ -2270,4 +2270,22 @@ export const links: Links = {
       },
     ],
   },
+   be: {
+    imageUrl: 'thumbb107.png',
+    title: 'Blade ball SCRIPT',
+    createdAt: '2026-05-19T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/d5ym7141bq72pam/blade+ball+by+kakazit+2026.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/pY5G9OtYP1s',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
