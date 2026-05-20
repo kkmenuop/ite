@@ -2288,4 +2288,22 @@ export const links: Links = {
       },
     ],
   },
+   bf: {
+    imageUrl: 'thumbb108.png',
+    title: 'survive zombie arena SCRIPT',
+    createdAt: '2026-05-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/5pbhqx5uarqmwvj/Survive+Zombie+Arena+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Vnsro2GTARE',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
