@@ -2324,4 +2324,22 @@ export const links: Links = {
       },
     ],
   },
+  bh: {
+    imageUrl: 'thumbb110.png',
+    title: 'BrOken Blade RP SCRIPT',
+    createdAt: '2026-06-10T23:52:49.706Z',
+    redirectUrl: 'https://link-target.net/330762/aOfZcmejLOos',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/tDX90d1i4a8',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
