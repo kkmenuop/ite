@@ -2342,4 +2342,22 @@ export const links: Links = {
       },
     ],
   },
+  bi: {
+    imageUrl: 'thumbb111.png',
+    title: 'Blox fruits SCRIPT',
+    createdAt: '2026-06-11T23:52:49.706Z',
+    redirectUrl: 'https://link-target.net/330762/DV1vW3Qf30sV',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/hQbkiPLEy2A',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
