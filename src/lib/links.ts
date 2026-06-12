@@ -2360,4 +2360,22 @@ export const links: Links = {
       },
     ],
   },
+  bj: {
+    imageUrl: 'thumbb112.png',
+    title: '+1 speed keyboard escape SCRIPT',
+    createdAt: '2026-06-12T23:52:49.706Z',
+    redirectUrl: 'https://link-target.net/330762/kL5PtEZyFzgI',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/jA9nLUKcass',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
