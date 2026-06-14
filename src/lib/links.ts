@@ -2396,4 +2396,22 @@ export const links: Links = {
       },
     ],
   },
+   bl: {
+    imageUrl: 'thumbb114.png',
+    title: 'Grow a Garden2 SCRIPT',
+    createdAt: '2026-06-14T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/9wy4591pvekzlbk/grow+a+garden+2+byy+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/NQMJs7vraG8',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
