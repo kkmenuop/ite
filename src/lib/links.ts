@@ -2414,4 +2414,22 @@ export const links: Links = {
       },
     ],
   },
+  bm: {
+    imageUrl: 'thumbb115.png',
+    title: 'Grow a Garden2 SCRIPT',
+    createdAt: '2026-06-15T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/uh8ewhsz0nnvt2e/Sell+Lemons+byy+kakazitt.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/GBEih9XT2W4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
