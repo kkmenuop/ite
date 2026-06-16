@@ -2432,4 +2432,22 @@ export const links: Links = {
       },
     ],
   },
+  bn: {
+    imageUrl: 'thumbb116.png',
+    title: 'Brookhaven RP SCRIPT',
+    createdAt: '2026-06-16T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/38hr9el90mq349f/brookhaven+rp+sp+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/ZB6LIx8BEMc',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
