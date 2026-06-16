@@ -2468,4 +2468,22 @@ export const links: Links = {
       },
     ],
   },
+  bp: {
+    imageUrl: 'thumbb118.png',
+    title: 'mini war SCRIPT',
+    createdAt: '2026-06-18T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/6n7j2b2uop04bib/mini+war+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/vq5AbZTVyrs',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
