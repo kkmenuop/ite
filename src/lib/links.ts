@@ -2486,4 +2486,22 @@ export const links: Links = {
       },
     ],
   },
+  br: {
+    imageUrl: 'thumbb119.png',
+    title: 'Brookhaven RP SCRIPT',
+    createdAt: '2026-06-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/ei9l28l5al654lq/brookhaven+rp+dark+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/yvGXX-PQIys',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
