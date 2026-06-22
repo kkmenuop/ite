@@ -2504,4 +2504,40 @@ export const links: Links = {
       },
     ],
   },
+  bq: {
+    imageUrl: 'thumbb120.png',
+    title: 'Brookhaven RP SCRIPT',
+    createdAt: '2026-06-21T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/wx3ze1gugjotm8e/grow+a+garden++22+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/GtcF7cPlOz4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+   bs: {
+    imageUrl: 'thumbb122.png',
+    title: 'Evomon SCRIPT',
+    createdAt: '2026-06-22T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/ux1oc9vyl4p1og8/evomon+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/zirs3N_XjmM',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
