@@ -2558,4 +2558,22 @@ export const links: Links = {
       },
     ],
   },
+  bu: {
+    imageUrl: 'thumbb124.png',
+    title: '+1 Speed Keyboard SCRIPT',
+    createdAt: '2026-06-24T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/cigsdnj8krk8sjm/+1+Speed+Keyboard+Escape+byy+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/e8pygN2GUMA',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
