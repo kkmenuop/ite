@@ -2576,4 +2576,22 @@ export const links: Links = {
       },
     ],
   },
+   bv: {
+    imageUrl: 'thumbb125.png',
+    title: '+1 Speed Keyboard SCRIPT',
+    createdAt: '2026-06-24T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/xawddnpmcm6wmaf/Storage+Hunters+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/F0fAtZ2foQY',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
