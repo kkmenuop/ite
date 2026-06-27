@@ -2612,4 +2612,22 @@ export const links: Links = {
       },
     ],
   },
+  bx: {
+    imageUrl: 'thumbb127.png',
+    title: 'Animal Hospital SCRIPT',
+    createdAt: '2026-06-28T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/d50xnfa92m5czfa/evomoon+script+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/K2aQDZmRBGI',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
