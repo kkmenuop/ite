@@ -2666,4 +2666,22 @@ export const links: Links = {
       },
     ],
   },
+    ca: {
+    imageUrl: 'thumbb130.png',
+    title: 'Delta Executor SCRIPT',
+    createdAt: '2026-07-01T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/77dibhk96strfz0/Delta-2.727.1199.apk/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/ZfKfbgROp8A',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
