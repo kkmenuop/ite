@@ -2720,4 +2720,22 @@ export const links: Links = {
       },
     ],
   },
+  ce: {
+    imageUrl: 'thumbb133.png',
+    title: 'Haze Seas SCRIPT',
+    createdAt: '2026-07-05T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/ymmcexkcyehr30h/haze_seas_by_kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/480DbW21qrU',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
