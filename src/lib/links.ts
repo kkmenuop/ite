@@ -2738,4 +2738,22 @@ export const links: Links = {
       },
     ],
   },
+  cf: {
+    imageUrl: 'thumbb134.png',
+    title: 'Animal hospital SCRIPT',
+    createdAt: '2026-07-06T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/syzdc10wfaomf9k/ANNIMAL+HOPSITAL+BY+KAKAZIT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/L2-DYbZdIg4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
