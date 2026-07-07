@@ -2774,4 +2774,22 @@ export const links: Links = {
       },
     ],
   },
+  ch: {
+    imageUrl: 'thumbb136.png',
+    title: 'iron soul dungeons SCRIPT',
+    createdAt: '2026-07-09T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/nw9lvzlr2pp08vc/Iron+Soul+Dungeon+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/BaMmwJ5W37Q',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
