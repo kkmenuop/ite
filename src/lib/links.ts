@@ -2810,4 +2810,22 @@ export const links: Links = {
       },
     ],
   },
+   cj: {
+    imageUrl: 'thumbb138.png',
+    title: 'evomon SCRIPT',
+    createdAt: '2026-07-11T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/cnci9gz0frk3x7c/evommon+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/TVqA5HNq__M',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
