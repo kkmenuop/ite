@@ -2846,4 +2846,22 @@ export const links: Links = {
       },
     ],
   },
+  cl: {
+    imageUrl: 'thumbb140.png',
+    title: 'Gakuran SCRIPT',
+    createdAt: '2026-07-13T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/kqg46spgtr0hei1/Gakuran+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/RLZSblo91Dw',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
