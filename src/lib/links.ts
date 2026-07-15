@@ -2900,4 +2900,22 @@ export const links: Links = {
       },
     ],
   },
+   co: {
+    imageUrl: 'thumbb143.png',
+    title: 'Murder Mystery 2 RP SCRIPT',
+    createdAt: '2026-07-17T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/2ravrz4140c7sv3/murder+mysteryy2+by+kkakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/5ppBcpdFUeY',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
