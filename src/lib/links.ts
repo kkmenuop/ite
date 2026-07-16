@@ -2918,4 +2918,22 @@ export const links: Links = {
       },
     ],
   },
+   cp: {
+    imageUrl: 'thumbb144.png',
+    title: 'jjs SCRIPT',
+    createdAt: '2026-07-18T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/v38zvev7e3c6qvo/jjs+by+kakazitt.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/8MDCjJWkrQ0',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
