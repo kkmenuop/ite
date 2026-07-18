@@ -2954,4 +2954,22 @@ export const links: Links = {
       },
     ],
   },
+  cr: {
+    imageUrl: 'thumbb146.png',
+    title: 'Anime Expeditions SCRIPT',
+    createdAt: '2026-07-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/gi01mbnzxk87uhr/grow+a+garden+2+byy+kakazitt.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/WFVzf6g0CCQ',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
