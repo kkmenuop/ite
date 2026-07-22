@@ -2972,4 +2972,22 @@ export const links: Links = {
       },
     ],
   },
+  cs: {
+    imageUrl: 'thumbb147.png',
+    title: 'Haze Seas SCRIPT',
+    createdAt: '2026-07-22T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/m42wool7cltrrbp/haze+seas+axel+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/7ucst0aIH34',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
