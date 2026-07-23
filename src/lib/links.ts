@@ -2990,4 +2990,22 @@ export const links: Links = {
       },
     ],
   },
+  ct: {
+    imageUrl: 'thumbb148.png',
+    title: 'Brookhaven rp SCRIPT',
+    createdAt: '2026-07-23T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/75njly2q3209o1g/Brookhaven+rp+summer+event+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/U94Ob38jtXU',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
