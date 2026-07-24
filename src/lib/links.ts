@@ -3008,4 +3008,22 @@ export const links: Links = {
       },
     ],
   },
+    cu: {
+    imageUrl: 'thumbb149.png',
+    title: 'Murder mystery 2 SCRIPT',
+    createdAt: '2026-07-24T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/4zzdtdwdtf8ve97/mm2+summer+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/MKwE00ti66c',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
