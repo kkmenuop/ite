@@ -3044,4 +3044,22 @@ export const links: Links = {
       },
     ],
   },
+    cw: {
+    imageUrl: 'thumbb151.png',
+    title: 'Shindo Life SCRIPT',
+    createdAt: '2026-07-29T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/i3y5pe292d7cjgc/shindo+lifee+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/1Ke0RT91Xyw',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
