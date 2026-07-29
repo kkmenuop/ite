@@ -3062,4 +3062,22 @@ export const links: Links = {
       },
     ],
   },
+  cx: {
+    imageUrl: 'thumbb152.png',
+    title: 'Blade Ball SCRIPT',
+    createdAt: '2026-07-30T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/lyhhjwqefeobnbn/Blade+Balll+By+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/hv5vqlPGFnA',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
