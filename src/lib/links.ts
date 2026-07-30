@@ -3080,4 +3080,22 @@ export const links: Links = {
       },
     ],
   },
+   cy: {
+    imageUrl: 'thumbb153.png',
+    title: 'Shindo life SCRIPT',
+    createdAt: '2026-07-31T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/ufxtrb10i9x36hm/shIndo+life+auto+spin+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/qWhqIPGNjNc',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
