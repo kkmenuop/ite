@@ -3098,4 +3098,22 @@ export const links: Links = {
       },
     ],
   },
+   cz: {
+    imageUrl: 'thumbb154.png',
+    title: 'Haze Seas SCRIPT',
+    createdAt: '2026-07-31T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/m5gpqe7cxhd97up/haze+seas+trap+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/fD-3zWcVto0',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
