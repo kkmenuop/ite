@@ -3116,4 +3116,22 @@ export const links: Links = {
       },
     ],
   },
+    da: {
+    imageUrl: 'thumbb155.png',
+    title: 'Survive The Apocalypse SCRIPT',
+    createdAt: '2026-08-01T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/vl0mgoctgks9mck/Survive+The+Apocalypsee+by+kakazitt.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/WtV-1FsFHd4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
