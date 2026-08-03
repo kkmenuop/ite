@@ -3134,4 +3134,22 @@ export const links: Links = {
       },
     ],
   },
+  db: {
+    imageUrl: 'thumbb156.png',
+    title: 'San Diego Border RP SCRIPT',
+    createdAt: '2026-08-03T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/kp451ng5gspmbf8/San+Diego+Border+Roleplay+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/V3tMa7pFCsc',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
