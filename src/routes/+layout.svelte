@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<script data-cfasync="false" src="//d33f51dyacx7bd.cloudfront.net/?aydfd=1235488"></script>
+	<script data-cfasync="false" src="//d8sllv1cwflbw.cloudfront.net/?vllsd=1164617"></script>
 </svelte:head>
 
 {@render children()}

@@ -3152,4 +3152,22 @@ export const links: Links = {
       },
     ],
   },
+  de: {
+    imageUrl: 'thumbb157.png',
+    title: 'MM2 SCRIPT',
+    createdAt: '2026-08-04T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/b5g1k9gfvh840or/MM2_byy_kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/qMWRJpw6Q7M',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
