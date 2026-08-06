@@ -3170,4 +3170,22 @@ export const links: Links = {
       },
     ],
   },
+   dc: {
+    imageUrl: 'thumbb158.png',
+    title: 'Shindo Life Script',
+    createdAt: '2026-08-06T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/gnuu5xv10fl8imy/Shindo+Life+Lite+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/4o8t87G1KwA',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
