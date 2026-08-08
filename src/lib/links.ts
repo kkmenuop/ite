@@ -3206,4 +3206,22 @@ export const links: Links = {
       },
     ],
   },
+  dh: {
+    imageUrl: 'thumbb160.png',
+    title: 'Slap Battles SCRIPT',
+    createdAt: '2026-08-08T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/wgyyiscnwhkalf1/Slap+battles+by+kakaizt.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Lzp1oLZyOGM',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
