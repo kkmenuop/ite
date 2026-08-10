@@ -3233,7 +3233,7 @@ export const links: Links = {
       {
         id: 1,
         type: 'like_comment',
-        url: 'https://youtu.be/Lzp1oLZyOGM',
+        url: 'https://youtu.be/TTcugI_-KAk',
       },
       {
         id: 2,
