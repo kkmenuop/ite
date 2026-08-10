@@ -3242,4 +3242,22 @@ export const links: Links = {
       },
     ],
   },
+   df: {
+    imageUrl: 'thumbb162.png',
+    title: 'Rivals SCRIPT',
+    createdAt: '2026-08-11T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/pw7wp89xsgdwvne/rivalss+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/uTgJvMnIph4',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
