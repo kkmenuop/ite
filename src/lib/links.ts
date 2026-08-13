@@ -3296,4 +3296,22 @@ export const links: Links = {
       },
     ],
   },
+  dm: {
+    imageUrl: 'thumbb165.png',
+    title: 'Grow a Chicken Fighter SCRIPT',
+    createdAt: '2026-08-13T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/qsyf5z74rlm2cu3/Grow+a+Chicken+Fighter+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/HmMG4m6aMq0',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
