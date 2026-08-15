@@ -3332,4 +3332,22 @@ export const links: Links = {
       },
     ],
   },
+     do: {
+    imageUrl: 'thumbb167.png',
+    title: 'Grow a Chicken Fighter SCRIPT',
+    createdAt: '2026-08-18T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/sl4varckznbnem2/steall+ann+egg+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/FmNTEF6Z9VU',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
