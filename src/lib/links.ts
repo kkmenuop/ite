@@ -3368,4 +3368,22 @@ export const links: Links = {
       },
     ],
   },
+      dr: {
+    imageUrl: 'thumbb169.png',
+    title: 'Ghost Driver SCRIPT',
+    createdAt: '2026-08-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/cfnnzonv4ieewe9/Ghost+Driver+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/iiDdmw9Sguw',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
