@@ -3405,6 +3405,24 @@ export const links: Links = {
     ],
   },
     ds: {
+    imageUrl: 'thumbb171.png',
+    title: 'Steal An Egg SCRIPT',
+    createdAt: '2026-08-21T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/x43s0htury1r7bk/ssteal+an+egg+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Tzui7oppJJ0',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+     dt: {
     imageUrl: 'thumbb172.png',
     title: 'Steal An Egg SCRIPT',
     createdAt: '2026-08-22T23:52:49.706Z',
