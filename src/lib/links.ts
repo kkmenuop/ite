@@ -3512,4 +3512,22 @@ export const links: Links = {
       },
     ],
   },
+    dz: {
+    imageUrl: 'thumbb177.png',
+    title: 'Muscle Legends SCRIPT',
+    createdAt: '2026-08-30T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/zyskvqwchs2m5ia/muscle+legends+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/XswkWVhMb-U',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
