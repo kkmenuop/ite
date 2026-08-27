@@ -3530,4 +3530,22 @@ export const links: Links = {
       },
     ],
   },
+   ea: {
+    imageUrl: 'thumbb178.png',
+    title: 'Steal an Egg SCRIPT',
+    createdAt: '2026-08-31T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/6vy8v9wbtrvgwfv/grandiodo+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/sbLPgVk3CAc',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
