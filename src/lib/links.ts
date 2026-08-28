@@ -3548,4 +3548,22 @@ export const links: Links = {
       },
     ],
   },
+    eb: {
+    imageUrl: 'thumbb179.png',
+    title: 'RunAwayas SCRIPT',
+    createdAt: '2026-09-01T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/liufmcm19dqnjbp/Runaways+By+KAKAZiT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/kFd7TrBq8nc',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
