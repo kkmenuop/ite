@@ -3584,4 +3584,22 @@ export const links: Links = {
       },
     ],
   },
+  ed: {
+    imageUrl: 'thumbb181.png',
+    title: 'Dungeon Quest Reborn SCRIPT',
+    createdAt: '2026-09-02T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/xi3t3564f9f6ak7/Dungeon+Quest+Reborn+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/zravDSL9C8s',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
