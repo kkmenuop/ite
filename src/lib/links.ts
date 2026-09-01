@@ -3602,4 +3602,22 @@ export const links: Links = {
       },
     ],
   },
+    ef: {
+    imageUrl: 'thumbb182.png',
+    title: 'Delta Executor Roblox',
+    createdAt: '2026-09-03T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/m9ne7i50u1xub0i/Delta-2.735.1138.apk/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/oYqQf5lgM80',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
