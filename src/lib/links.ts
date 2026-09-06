@@ -3620,4 +3620,22 @@ export const links: Links = {
       },
     ],
   },
+  eg: {
+    imageUrl: 'thumbb187.png',
+    title: 'Blox Fruits SCRIPT',
+    createdAt: '2026-09-06T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/cut7840p5vyfjyl/blox+fruits+quantum+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/p4TCpHKxOrQ',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
