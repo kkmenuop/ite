@@ -3656,4 +3656,22 @@ export const links: Links = {
       },
     ],
   },
+    ei: {
+    imageUrl: 'thumbb189.png',
+    title: 'Blox Fruits SCRIPT',
+    createdAt: '2026-09-08T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/nd74tp5metmn6j0/blox+fruits+teddy+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/XiCl4aemxLM',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
