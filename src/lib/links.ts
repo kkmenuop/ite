@@ -3692,4 +3692,22 @@ export const links: Links = {
       },
     ],
   },
+   ek: {
+    imageUrl: 'thumbb191.png',
+    title: 'Steal an Egg SCRIPT',
+    createdAt: '2026-09-11T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/a9mkwmx8t6a1fac/steal+an+egg+zeroin+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/QxP0ppvpeVY',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
