@@ -3746,4 +3746,22 @@ export const links: Links = {
       },
     ],
   },
+    en: {
+    imageUrl: 'thumbb195.png',
+    title: 'Steal an Egg SCRIPT',
+    createdAt: '2026-09-13T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/x2ooy3g676naot4/steal+an+egg+blyxo+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/cReknoSbd-E',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
