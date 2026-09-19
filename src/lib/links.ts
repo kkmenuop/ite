@@ -3836,4 +3836,22 @@ export const links: Links = {
       },
     ],
   },
+  es: {
+    imageUrl: 'thumbb200.png',
+    title: 'Steal an egg script',
+    createdAt: '2026-09-19T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/fdtkmyt2pux9f5z/steal+an+egg+ns+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/m8wS6c0lens',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
