@@ -3854,4 +3854,22 @@ export const links: Links = {
       },
     ],
   },
+   et: {
+    imageUrl: 'thumbb201.png',
+    title: 'Brookhaven RP script',
+    createdAt: '2026-10-19T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/8qx85vf1g1te8cb/sander+brookkhaven+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/YqSSVJm1wkE',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
