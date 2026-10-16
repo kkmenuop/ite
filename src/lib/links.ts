@@ -3872,4 +3872,22 @@ export const links: Links = {
       },
     ],
   },
+     eu: {
+    imageUrl: 'thumbb202.png',
+    title: 'Tribles 3v3 script',
+    createdAt: '2026-10-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/h4b7732e13yu9zs/Tribes+3v3+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/De_XbBb6uOM',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
