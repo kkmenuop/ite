@@ -3890,4 +3890,22 @@ export const links: Links = {
       },
     ],
   },
+      ev: {
+    imageUrl: 'thumbb204.png',
+    title: 'roube um ovo script',
+    createdAt: '2026-10-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/sjamt4dnhogobeb/Roube+um+ovo+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/z3CD71dguvU',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
