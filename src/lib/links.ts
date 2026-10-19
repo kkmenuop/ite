@@ -3908,4 +3908,22 @@ export const links: Links = {
       },
     ],
   },
+      ew: {
+    imageUrl: 'thumbb203.png',
+    title: 'Car Dealership Tycoon script',
+    createdAt: '2026-10-21T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/w23zq573wjqq8ns/Car+Dealership+tycoon+halloween+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/DdmHKKnRH3M',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
