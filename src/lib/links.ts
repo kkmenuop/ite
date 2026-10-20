@@ -3926,4 +3926,22 @@ export const links: Links = {
       },
     ],
   },
+    ey: {
+    imageUrl: 'thumbb205.png',
+    title: 'Delta Executor',
+    createdAt: '2026-10-22T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/bt8hsgtzb0vpq78/Delta-2.743.1136.apk/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/wK92t_trVZI',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
