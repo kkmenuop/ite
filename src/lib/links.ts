@@ -3944,4 +3944,22 @@ export const links: Links = {
       },
     ],
   },
+     ez: {
+    imageUrl: 'thumbb206.png',
+    title: 'Roube um ovo Script',
+    createdAt: '2026-10-23T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/vh5juf1jwj7b7nl/Chilli+hub+roube+um+ovo+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/e4aafPuXWAY',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
