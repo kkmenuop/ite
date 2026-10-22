@@ -3962,4 +3962,22 @@ export const links: Links = {
       },
     ],
   },
+     fa: {
+    imageUrl: 'thumbb207.png',
+    title: 'MM2 Script',
+    createdAt: '2026-10-24T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/yxiolfy9rary2kk/mm2+halloween+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/n_oxh0l91KY',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
