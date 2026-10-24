@@ -3980,4 +3980,40 @@ export const links: Links = {
       },
     ],
   },
+    fb: {
+    imageUrl: 'thumbb208.png',
+    title: 'MM2 Script',
+    createdAt: '2026-10-25T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/rworeohkd4fy4ld/murder+mystery+2+halloween+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/L2RzlMWwos8',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+   fc: {
+    imageUrl: 'thumbb209.png',
+    title: 'JJS Script',
+    createdAt: '2026-10-26T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/9rujltuuz771ymv/jjs+halloween.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/MTjCPbEy3dY',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
