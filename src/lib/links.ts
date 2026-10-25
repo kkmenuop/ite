@@ -4016,4 +4016,22 @@ export const links: Links = {
       },
     ],
   },
+   fd: {
+    imageUrl: 'thumbb210.png',
+    title: 'The Hollow Event Script',
+    createdAt: '2026-10-27T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/ch9jg6myvvet5wd/the+hollow+script+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/L1h0fpLxTSY',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
