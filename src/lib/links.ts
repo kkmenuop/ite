@@ -4034,4 +4034,22 @@ export const links: Links = {
       },
     ],
   },
+     fe: {
+    imageUrl: 'thumbb211.png',
+    title: 'violence district Script',
+    createdAt: '2026-10-28T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/btln8ygcaf0r573/Violence+District+op+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/EUE5ZuaN0BY',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
