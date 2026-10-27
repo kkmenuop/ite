@@ -4052,4 +4052,22 @@ export const links: Links = {
       },
     ],
   },
+      fg: {
+    imageUrl: 'thumbb212.png',
+    title: 'Cameraman TD Script',
+    createdAt: '2026-10-29T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/kwmg5eow9w6dkzw/Cameraman+TD+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/NFFWo5khdyc',
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
