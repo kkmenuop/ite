@@ -4106,4 +4106,22 @@ export const links: Links = {
       },
     ],
   },
+       fj: {
+    imageUrl: 'thumbb215.png',
+    title: 'AOTR scrit',
+    createdAt: '2026-11-01T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/j5z6ldutnir9hcb/AOTR+SCRIPT+BY+KAKAZIT.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/oQzxKiW9ABw'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
