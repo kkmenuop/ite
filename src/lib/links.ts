@@ -4124,4 +4124,22 @@ export const links: Links = {
       },
     ],
   },
+       fk: {
+    imageUrl: 'thumbb216.png',
+    title: 'AOTR scrit',
+    createdAt: '2026-11-02T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/9apxh6q01httdzy/aotr+kira+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/lLVtZvGjsiU'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
