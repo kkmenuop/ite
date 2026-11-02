@@ -1,198 +1,181 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import type { Link, Action } from '$lib/links';
 	import { actionTypes } from '$lib/types';
-	import { onMount } from 'svelte';
+	import {
+		createTaskProgress,
+		watchTaskReturn,
+		type Progress,
+		type TaskProgress
+	} from '$lib/task-progress';
 	let { data }: { data: Link } = $props();
 
-	const SAVE_TIME = 10 * 60 * 1000; // 10 minutes in milliseconds
-	// svelte-ignore state_referenced_locally
-	const STORAGE_KEY = `link-progress-${data.id}`;
+	let progress = $state<Progress>({ completed: [], pending: null });
+	let tracker = $state<TaskProgress | null>(null);
+	let remaining = $state(0);
+	let message = $state('');
+	let ready = $state(false);
+	let actionsDone = $derived(progress.completed.length);
+	let actionsToDo = $derived(data.actions.length);
+	let currentAction = $derived(data.actions.find((action) => action.id === progress.pending?.id));
+	let unlocked = $derived(ready && actionsDone === actionsToDo);
 
-	const getIso = () => {
-		const iso = data.createdAt;
-		return new Intl.DateTimeFormat(undefined, {
+	const getIso = () =>
+		new Intl.DateTimeFormat(undefined, {
 			day: '2-digit',
 			month: '2-digit',
 			year: 'numeric',
 			hour: '2-digit',
 			minute: '2-digit'
-		}).format(new Date(iso));
-	};
+		}).format(new Date(data.createdAt));
 
-	let actionsDone = $state(0);
-	// svelte-ignore state_referenced_locally
-	const actionsToDo = data.actions.length;
-	// svelte-ignore state_referenced_locally
-	let actions = $state<Action[]>(data.actions);
-	let away = $state(false);
-	let currentAction = $state<Action | null>(null);
-	let startTime = 0;
+	function reconcile(manual = false) {
+		const result = tracker?.resume(manual);
+		remaining = Math.ceil((tracker?.remaining() ?? 0) / 1000);
+		if (result === 'completed') message = 'Etapa concluída. Você já pode continuar.';
+		else if (result === 'expired') message = 'Esta tentativa expirou. Abra a tarefa novamente.';
+		else if (manual && result === 'waiting')
+			message = `Aguarde mais ${remaining} segundo(s) e tente novamente.`;
+	}
 
-	const loadProgress = () => {
-		const saved = localStorage.getItem(STORAGE_KEY);
-		if (!saved) return;
-
-		const { expiredIds, timestamp } = JSON.parse(saved);
-		const timePassed = Date.now() - timestamp;
-
-		if (timePassed > SAVE_TIME) {
-			// Time expired, grant all pending actions
-			actions.forEach((action) => {
-				action.expired = true;
-			});
-			actionsDone = actionsToDo;
-			localStorage.removeItem(STORAGE_KEY);
-		} else {
-			// Restore progress
-			actions.forEach((action) => {
-				if (expiredIds.includes(action.id)) {
-					action.expired = true;
-					actionsDone++;
-				}
-			});
-		}
-	};
-
-	const saveProgress = () => {
-		const expiredIds = actions.filter((a) => a.expired).map((a) => a.id);
-		localStorage.setItem(
-			STORAGE_KEY,
-			JSON.stringify({
-				expiredIds,
-				timestamp: Date.now()
-			})
-		);
-	};
-
-	onMount(() => {
-		loadProgress();
-
-		const toggle = () => {
-			away = document.hidden;
+	// Reinitialize when SvelteKit reuses this page for a different link.
+	$effect(() => {
+		if (!browser) return;
+		const link = data;
+		ready = false;
+		message = '';
+		const next = createTaskProgress({
+			key: `link-progress-${link.id}`,
+			tasks: link.actions.map((action) => ({
+				id: action.id,
+				url: action.url,
+				waitMs: actionTypes[action.type].waitTime * 1000
+			})),
+			storage: () => window.localStorage,
+			onChange: (value) => {
+				progress = value;
+			}
+		});
+		tracker = next;
+		next.restore();
+		const stopWatching = watchTaskReturn(next, document, window, () => reconcile());
+		// A reload may be the only observable return from the external app.
+		next.resume();
+		remaining = Math.ceil(next.remaining() / 1000);
+		ready = true;
+		const timer = window.setInterval(() => {
+			// Display only: completion never depends on this timer firing in the background.
+			remaining = Math.ceil(next.remaining() / 1000);
+		}, 1000);
+		return () => {
+			stopWatching();
+			window.clearInterval(timer);
 		};
-		document.addEventListener('visibilitychange', toggle);
-		return () => document.removeEventListener('visibilitychange', toggle);
 	});
 
-	async function handleClick(action: Action) {
-		if (action.expired || currentAction) return;
-
-		const tab = window.open(action.url, '_blank');
-		if (!tab) return;
-
-		currentAction = action;
-		startTime = performance.now();
-
-		await new Promise<void>((r) => {
-			const check = () => {
-				if (away) {
-					document.removeEventListener('visibilitychange', check);
-					r();
-				}
-			};
-			document.addEventListener('visibilitychange', check);
-			if (away) r();
-		});
-
-		await new Promise<void>((r) => {
-			const check = () => {
-				if (!away) {
-					document.removeEventListener('visibilitychange', check);
-					r();
-				}
-			};
-			document.addEventListener('visibilitychange', check);
-		});
-
-		if (performance.now() - startTime >= actionTypes[action.type].waitTime * 1000) {
-			action.expired = true;
-			actionsDone++;
-			saveProgress();
+	function handleClick(action: Action) {
+		if (!tracker?.start(action.id)) return;
+		message = 'Faça a tarefa na página aberta e depois volte aqui.';
+		remaining = Math.ceil(tracker.remaining() / 1000);
+		try {
+			// Keep this synchronous with the tap. Listeners and saved state are already ready.
+			const tab = window.open(action.url, '_blank');
+			if (tab) tab.opener = null;
+			else
+				message =
+					'Se a tarefa não abriu, toque em “Abrir nesta aba”. Se abriu no aplicativo, conclua e volte aqui.';
+		} catch {
+			message = 'Não foi possível abrir outra aba. Use “Abrir nesta aba”.';
 		}
-		startTime = 0;
-		currentAction = null;
+	}
+
+	function cancelTask() {
+		tracker?.cancel();
+		remaining = 0;
+		message = 'Tentativa cancelada. Escolha uma tarefa para continuar.';
 	}
 </script>
 
-<div class="flex size-full items-center justify-center bg-gray-900 text-white">
-	<div
-		class="flex w-105 max-w-[calc(100%-32px)] flex-col gap-2 overflow-clip rounded-xl bg-gray-800"
-	>
-		<img src={`/thumbnails/${data.imageUrl}`} alt={data.title} />
-		<div class="flex flex-col items-center justify-center gap-3 p-3">
-			<p class="text-center text-2xl font-bold">
-				{data.title}
-			</p>
-			<p class="text-sm text-gray-500">
-				Made {getIso()}
+<div class="flex min-h-dvh w-full items-center justify-center bg-gray-900 px-4 py-6 text-white">
+	<div class="flex w-full max-w-105 flex-col gap-2 overflow-hidden rounded-xl bg-gray-800">
+		<img src={`/thumbnails/${data.imageUrl}`} alt={data.title} class="h-auto w-full" />
+		<div class="flex flex-col items-center justify-center gap-3 p-4">
+			<p class="text-center text-2xl font-bold">{data.title}</p>
+			<p class="text-sm text-gray-400">Criado em {getIso()}</p>
+			<p class="text-center text-sm text-gray-300">
+				Abra cada tarefa, realize a ação e volte a esta página para continuar.
 			</p>
 
 			<div class="flex w-full flex-col items-center justify-center gap-1">
-				<p>
-					{actionsDone} / {actionsToDo}
-				</p>
-				<div class="h-4 w-full rounded-full bg-black">
+				<p aria-live="polite">{actionsDone} / {actionsToDo}</p>
+				<div
+					class="h-3 w-full overflow-hidden rounded-full bg-black"
+					role="progressbar"
+					aria-label="Etapas concluídas"
+					aria-valuemin={0}
+					aria-valuemax={actionsToDo || 1}
+					aria-valuenow={actionsDone}
+				>
 					<div
-						style={`width: ${Math.max((actionsDone / actionsToDo) * 100, 5)}%`}
-						class="anim h-full rounded-full bg-blue-300 transition-all"
+						style={`width: ${actionsToDo ? (actionsDone / actionsToDo) * 100 : 100}%`}
+						class="h-full rounded-full bg-blue-300 transition-all"
 					></div>
 				</div>
 			</div>
 
-			<div class="mt-3 flex w-full flex-col items-center justify-center gap-3">
-				{#each actions as action (action.id)}
+			<div class="mt-3 flex w-full flex-col gap-3">
+				{#each data.actions as action (action.id)}
+					{@const done = progress.completed.includes(action.id)}
 					<button
-						disabled={action.expired}
+						disabled={!ready || done || !!progress.pending}
 						onclick={() => handleClick(action)}
-						aria-label={actionTypes[action.type].name}
-						class={[
-							'rounded-3 flex h-12 w-full items-center justify-center gap-2 rounded-lg font-bold',
-							{
-								'cursor-default bg-gray-700 text-gray-400': action.expired,
-								'cursor-pointer': !action.expired
-							}
-						]}
-						style={`background-color: ${action.expired ? '' : actionTypes[action.type].color}`}
+						class="flex min-h-12 w-full items-center justify-center gap-2 rounded-lg px-3 py-2 font-bold disabled:cursor-default disabled:opacity-70"
+						style={`background-color: ${done ? '#374151' : actionTypes[action.type].color}`}
 					>
-						{actionTypes[action.type].name}
-						{#if currentAction?.id === action.id}
-							<img src="/icons/loading.svg" alt="" class="size-6 animate-spin" />
-						{/if}
+						{actionTypes[action.type].name}{done ? ' — concluída' : ''}
+						{#if currentAction?.id === action.id}<span class="text-xs">Em andamento</span>{/if}
 					</button>
 				{/each}
 			</div>
+
+			{#if currentAction}
+				<div class="flex w-full flex-col gap-2 rounded-lg border border-gray-600 p-3">
+					<p class="text-center text-sm text-gray-200">
+						Ao voltar, toque abaixo se a etapa não avançar automaticamente.
+					</p>
+					<button
+						onclick={() => reconcile(true)}
+						class="min-h-12 rounded-lg bg-blue-600 px-3 py-2 font-bold"
+					>
+						{remaining > 0 ? `Já fiz — aguarde ${remaining}s` : 'Já fiz — continuar'}
+					</button>
+					<!-- External task URL, not a SvelteKit route. -->
+					<!-- eslint-disable svelte/no-navigation-without-resolve -->
+					<a
+						href={currentAction.url}
+						onclick={() => tracker?.depart()}
+						class="flex min-h-11 items-center justify-center rounded-lg border border-gray-500 px-3 py-2 text-center underline"
+						>Abrir nesta aba</a
+					>
+					<!-- eslint-enable svelte/no-navigation-without-resolve -->
+					<button
+						onclick={cancelTask}
+						class="min-h-11 rounded-lg px-3 py-2 text-sm text-gray-300 underline"
+						>Cancelar tentativa</button
+					>
+				</div>
+			{/if}
+
+			<p role="status" class="text-center text-sm text-blue-200">{message}</p>
 			<button
-				disabled={actionsDone !== actionsToDo}
+				disabled={!unlocked}
 				onclick={() => {
-					if (actionsDone === actionsToDo) window.open(data.redirectUrl);
+					if (unlocked) window.location.assign(data.redirectUrl);
 				}}
-				class={[
-					'rounded-3 h-12 w-full rounded-lg font-bold transition-all duration-300',
-					{
-						'cursor-not-allowed bg-gray-700 font-medium text-gray-400': actionsDone !== actionsToDo,
-						'cursor-pointer bg-green-600': actionsDone === actionsToDo
-					}
-				]}
+				class="min-h-12 w-full rounded-lg bg-green-600 px-3 py-2 font-bold transition-colors disabled:cursor-not-allowed disabled:bg-gray-700 disabled:font-medium disabled:text-gray-400"
 			>
-				{actionsDone === actionsToDo ? 'Unlock content' : 'Complete all steps to unlock'}
+				{unlocked ? 'Acessar conteúdo' : 'Conclua as etapas para liberar'}
 			</button>
 		</div>
 	</div>
 </div>
-
-<style>
-	@keyframes anim-sus {
-		0%,
-		100% {
-			opacity: 1;
-		}
-
-		50% {
-			opacity: 0.7;
-		}
-	}
-
-	.anim {
-		animation: anim-sus 2s infinite ease-in-out;
-	}
-</style>

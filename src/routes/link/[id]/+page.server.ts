@@ -6,6 +6,5 @@ export function load({ params }) {
 	if (!linkInfo) {
 		error(404);
 	}
-	linkInfo.id = params.id
-	return linkInfo;
+	return { ...linkInfo, id: params.id };
 }
