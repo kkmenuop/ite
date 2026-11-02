@@ -4142,4 +4142,22 @@ export const links: Links = {
       },
     ],
   },
+      fl: {
+    imageUrl: 'thumbb217.png',
+    title: 'AOTR scrit',
+    createdAt: '2026-11-05T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/hk8b2a27o4gcj6n/Blox+Fruits+halloween+script+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'htps://youtu.be/I7d7-HQSEFc'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
