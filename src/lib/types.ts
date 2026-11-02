@@ -8,12 +8,12 @@ type ActionTypes = Record<string, ActionType>;
 
 export const actionTypes: ActionTypes = {
 	like_comment: {
-		name: 'Like & Comment',
+		name: 'Curtir e comentar',
 		color: '#0077ff',
 		waitTime: 5
 	},
 	subscribe: {
-		name: 'Subscribe',
+		name: 'Inscrever-se',
 		color: '#ff0000',
 		waitTime: 3
 	}
