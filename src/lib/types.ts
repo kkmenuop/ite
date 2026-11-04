@@ -7,6 +7,11 @@ export interface ActionType {
 type ActionTypes = Record<string, ActionType>;
 
 export const actionTypes: ActionTypes = {
+	discord: {
+		name: 'Entrar no Discord',
+		color: '#5865f2',
+		waitTime: 3
+	},
 	like_comment: {
 		name: 'Curtir e comentar',
 		color: '#0077ff',
@@ -18,3 +23,4 @@ export const actionTypes: ActionTypes = {
 		waitTime: 3
 	}
 };
+

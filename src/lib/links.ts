@@ -1,7 +1,7 @@
 // types
 export interface Action {
   id: number;
-  type: 'like_comment' | 'subscribe';
+  type: 'like_comment' | 'subscribe' | 'discord';
   url: string;
     expired?: boolean;
 }
@@ -4179,3 +4179,4 @@ export const links: Links = {
     ],
   },
 };
+
