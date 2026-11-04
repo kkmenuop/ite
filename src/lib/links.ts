@@ -4178,5 +4178,23 @@ export const links: Links = {
       },
     ],
   },
+      fn: {
+    imageUrl: 'thumbb218.png',
+    title: 'ilegal soccer scrit',
+    createdAt: '2026-11-08T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/hqqfw6o7at4j9ey/Illegal+Soccer+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/BpQQHJ7ezWU'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
 
