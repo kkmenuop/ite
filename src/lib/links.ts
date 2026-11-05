@@ -4179,7 +4179,7 @@ export const links: Links = {
     ],
   },
       fn: {
-    imageUrl: 'thumbb218.png',
+    imageUrl: 'thumbb219.png',
     title: 'ilegal soccer scrit',
     createdAt: '2026-11-08T23:52:49.706Z',
     redirectUrl: 'https://www.mediafire.com/file/hqqfw6o7at4j9ey/Illegal+Soccer+by+kakazit.txt/file',
@@ -4206,6 +4206,24 @@ export const links: Links = {
         id: 1,
         type: 'like_comment',
         url: 'https://youtu.be/lA9OEipgv68'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
+          fp: {
+    imageUrl: 'thumbb221.png',
+    title: 'AOTR script',
+    createdAt: '2026-11-09T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/xc8sr6rrnniiavz/Attack+on+Titan+Revolution+Script+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/mg3O0lSEqUk'
       },
       {
         id: 2,
