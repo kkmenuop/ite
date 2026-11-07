@@ -4232,5 +4232,23 @@ export const links: Links = {
       },
     ],
   },
+        fq: {
+    imageUrl: 'thumbb222.png',
+    title: 'King Legacy script',
+    createdAt: '2026-11-10T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/t44w73j63afqv8z/King+legacy+hallo+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/mg3O0lSEqUk'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
 
