@@ -4250,5 +4250,23 @@ export const links: Links = {
       },
     ],
   },
+       fr: {
+    imageUrl: 'thumbb223.png',
+    title: 'King Legacy script',
+    createdAt: '2026-11-15T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/v495px52idj3uxq/king+zee+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Z4A5iqmOqTA'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
 
