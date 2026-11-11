@@ -4286,5 +4286,23 @@ export const links: Links = {
       },
     ],
   },
+        ft: {
+    imageUrl: 'thumbb225.png',
+    title: 'KiNG LEGACY script',
+    createdAt: '2026-11-18T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/a85eo2zjc4nt6cx/King+legacy+script+axon+hub+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/8Oi9O_tKc4s'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
 
