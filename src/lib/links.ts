@@ -4322,5 +4322,23 @@ export const links: Links = {
       },
     ],
   },
+       fv: {
+    imageUrl: 'thumbb227.png',
+    title: 'AOTR script',
+    createdAt: '2026-11-20T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/42smjyu9gb70qkn/king+legacy+byy+kakaziit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/7-CVbmWRsXQ'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
 
