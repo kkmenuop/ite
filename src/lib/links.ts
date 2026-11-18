@@ -4340,5 +4340,23 @@ export const links: Links = {
       },
     ],
   },
+         fy: {
+    imageUrl: 'thumbb228.png',
+    title: 'king legacy script',
+    createdAt: '2026-11-20T23:52:49.706Z',
+    redirectUrl: 'https://linkrende.com/r/7062bf84ee7c/',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/7-CVbmWRsXQ'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
 
