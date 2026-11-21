@@ -4376,5 +4376,23 @@ export const links: Links = {
       },
     ],
   },
+        fw: {
+    imageUrl: 'thumbb230.png',
+    title: 'king legacy script',
+    createdAt: '2026-11-22T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/6205hukxx5m8wcm/king+hulk+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Xb49Kd-c1Yk'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
 
