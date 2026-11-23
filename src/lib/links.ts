@@ -4394,5 +4394,23 @@ export const links: Links = {
       },
     ],
   },
+        ga: {
+    imageUrl: 'thumbb231.png',
+    title: 'Brookhaven RP script',
+    createdAt: '2026-11-23T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/ym8d8tdsfypbrlf/brookhaven+admin+panel+by+kakazit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/Xb49Kd-c1Yk'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
 
