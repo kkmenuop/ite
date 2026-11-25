@@ -4412,5 +4412,23 @@ export const links: Links = {
       },
     ],
   },
+        gc: {
+    imageUrl: 'thumbb232.png',
+    title: 'Brookhaven RP script',
+    createdAt: '2026-11-24T23:52:49.706Z',
+    redirectUrl: 'https://www.mediafire.com/file/82e9zdyfbddlb2a/Vox+Seas+Script+vanta+by+kakakzit.txt/file',
+    actions: [
+      {
+        id: 1,
+        type: 'like_comment',
+        url: 'https://youtu.be/b2BNZE057kw'
+      },
+      {
+        id: 2,
+        type: 'subscribe',
+        url: 'https://www.youtube.com/@KAKAZiT',
+      },
+    ],
+  },
 };
 
